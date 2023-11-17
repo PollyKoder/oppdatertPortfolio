@@ -33,7 +33,7 @@
 
     - Husker ikkje hvorfor jeg satt ul i en span, skulle kommentert mer/bedre i koden der. Ønsker å finne ut om det har en funksjon før jeg fjerner den.
 
-    - hamburger meny'en er ikkje med, tror jeg mangler noe eller må gjøre media-query på en anne måte...
+    - Hamburger meny'en er ikkje med, tror jeg mangler noe eller må gjøre media-query på en anne måte...
 
     - Tenker eg prøver å endre responsivt design til å fungere med tablet og mobil, da er tenker siden ser ok ut i desktop format.
 

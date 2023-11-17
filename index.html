@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="nb">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>P. H. Riviera Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" src="themeToggle.js" type="module"></script>
+</head>
+<body class="body lightMode">
+    <header>
+        <div class="top-banner">P.H. Riviera Portfolio</div>
+        <!-- Add different text to banner! Function? -->
+        <!--- adding button for bright and dark mode swtich with js, vi skal bruke et ikon til knappen -->
+        <button class="themeToggle">🌔/🌒</button>
+            <img class="nav-p" src="https://cdn.pixabay.com/photo/2017/05/29/18/22/matrix-2354492_1280.jpg" alt="A picture with a row of green striped codes 
+            falling from top to bottom over a dark background"/>
+        <div class="head-flex">
+            <div class="navWrapper" role="navigation">
+                <h4>Navigasjon</h4>
+                <span><ul class="navBar">
+                    <li>
+                        <a href="#home">Home</a>
+                    </li>
+                    <li>
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contact</a>
+                    </li>
+                    <!-- //add functioning links/, perhaps add links to other spots on the page for now.
+                    Then add link to pages that open a new window or open a new page in the same window later? -->
+                </ul>
+                </span>
+                <button class="burgerMenu" onclick="toggleNav()">☰</button>
+            </div>
+            <img class="pfp" src="https://yt3.googleusercontent.com/ytc/AOPolaTt_3hK70uNxlzCGp9Nd5d-CNnjZy0UNiv5WgsPbg=s176-c-k-c0x00ffffff-no-rj" alt="A profile picture of Polly H. Riviera with purple and yellow hair"/>
+        </div>
+    </header>
+    <main class="main">
+        <section class="home">
+            <img class="home-img" src="https://cdn.pixabay.com/photo/2021/01/05/01/15/home-5889366_1280.jpg" alt="A picture of a house and some pine trees on a 
+            cliff that's hovering above the lake in a valley"/>
+            <!-- add image, and link to about page?- make a separate "about" page later on? -->
+            <h2>Home</h2>
+            <h4>En hjemmeside for kommende prosjekter i min reise gjennom HTML, 
+                CSS og Javascript kodingens verden.</h4>
+            <p>
+                Mitt navn er Polly H. Riviera og her vil man finne mine ferdige 
+                prosjekter og oppgaver fra Gløde sitt programmerings kurs.
+            </p>
+            <h5>Litt om meg</h5>
+            <p>Jeg er fra Bergen by, født i 1994 og jeg er et kreativt vesen som 
+                trives med utfordringer.</p>
+        </section>
+        <section id="projects">
+            
+            <h3>Mine prosjekter</h3>
+            <div class="projectOne task">
+                <h5>Oppgave 1</h5>
+                <a class="a" href="https://majestic-muffin-a0922d.netlify.app/" target="_blank">Hjemme side med egen info </a>
+                <!-- The next "a" element is the same link, but allows the image to be clickable-->
+                <a href="https://majestic-muffin-a0922d.netlify.app/">
+                <img class="imgDesktop" src="Images/Oppgave1-screenshot.png" alt="A screenshot of the website designed for the first task, colors most visible are purple and bright yellow" />
+                </a>    
+                <p>Oppgavens <a class="a" href="https://github.com/PollyKoder/Oppgave1" target="_blank">kildekode</a></p>
+                
+            </div>
+
+            <div class="projectTwo task">
+                <h5>Oppgave 2</h5>
+                <a class="a" href="https://chic-crumble-4cc779.netlify.app/" target="_blank">Portfolio</a> <br> Siden du er på nå, denne linken fører deg til første utgaven av siden.
+                <!--Link for clickable photo-->
+                <a href="https://chic-crumble-4cc779.netlify.app/">
+                <img class="imgDesktop" src="Images/protfolio screenshot.png" alt="a screenshot of the first version of the page you're on"/>
+                </a>
+                <p>Oppgavens <a class="a" href="https://github.com/PollyKoder/P.H.-Riviera-Portfolio/tree/main" targe="_blank">kildekode</a></p>
+            </div>
+            <!-- Add source code -->
+
+            <div class="projectThree task">
+                <h5>Oppgave 3</h5>
+                <a class="a" href="https://elaborate-cat-f51bbe.netlify.app/" target="_blank">Parallax</a>
+                <!--Link for clickable photo-->
+                <a href="https://elaborate-cat-f51bbe.netlify.app/">
+                <img class="imgDesktop" src="Images/imgParallax.png" alt=""/>
+                </a>
+                <p>Oppgavens <a class="a" href="https://github.com/PollyKoder/parallax_japan" target="_blank">kildekode</a></p>
+            </div>
+
+            <div class="projectFour task">
+                <h5>Oppgave 4</h5>
+                <a class="a" href="https://roaring-liger-af73cb.netlify.app/" target="_blank">Bildegalleri - responsiv nettside</a>
+                <!--Link for clickable photo-->
+                <a href="https://roaring-liger-af73cb.netlify.app/">
+                <img class="imgDesktop" src="Images/imgGP.png" alt=""/>
+                </a>
+                <p>Oppgavens <a class="a" href="https://github.com/PollyKoder/good_place_rw" target="_blank">kildekode</a></p>
+            </div>
+
+            <div class="projectFive task">
+                <h5>Oppgave 5</h5>
+                <a class="a" href="https://starlit-melba-4691ad.netlify.app/" target="_blank">Telle app (Counter app)</a>
+                <!--Link for clickable photo-->
+                <a href="https://starlit-melba-4691ad.netlify.app/">
+                <img class="imgDesktop" src="Images/imgCounterApp.png" alt=""/>
+                </a>
+                <p>Oppgavens <a class="a" href="https://github.com/PollyKoder/counterApp" target="_blank">kildekode</a></p>
+            </div>
+
+            <div class="projectSix task">
+                <h5>Oppgave 6</h5>
+                <a class="a" href="https://guileless-valkyrie-418c71.netlify.app/" target="_blank">Intro JavaScript - Emoji knapp</a>
+                <!--Link for clickable photo-->
+                <a href="https://guileless-valkyrie-418c71.netlify.app/">
+                <img class="imgMobile" src="Images/imgEmoji.png" alt=""/>
+                </a>
+                <p>Oppgavens <a class="a" href="https://github.com/PollyKoder/catsDogsEmoji" target="_blank">kildekode</a></p>
+            </div>
+
+            <div class="projectSeven task">
+                <h5>Oppgave 7</h5>
+                <a class="a" href="https://glittery-kangaroo-c364d9.netlify.app/" target="_blank">Enhet konverterer</a>
+                <!--Link for clickable photo-->
+                <a href="https://glittery-kangaroo-c364d9.netlify.app/">
+                <img class="imgDesktop" src="Images/imgUnitConverter.png" alt=""/>
+                </a>
+                <p>Oppgavens <a class="a" href="https://github.com/PollyKoder/enhetKonverterer" target="_blank">kildekode</a></p>
+            </div>
+
+            <div class="projectEight task">
+                <h5>Oppgave 8</h5>
+                <a class="a" href="https://sage-paprenjak-d0f7c2.netlify.app/" target="_blank">Todo List</a>
+                <!--Link for clickable photo-->
+                <a href="https://sage-paprenjak-d0f7c2.netlify.app/">
+                <img class="imgDesktop" src="Images/imgToDo.png" alt="">
+                </a>
+                <p>Oppgavens <a class="a" href="https://github.com/PollyKoder/toDoList" target="_blank">kildekode</a></p>
+            </div>
+
+            <div class="projectNine task">
+                <h5>Oppgave 9</h5>
+                <a class="a" href="https://leafy-melba-e0e22f.netlify.app/" target="_blank">API call - Inspirational Quote</a>
+                <!--Link for clickable photo-->
+                <a href="https://leafy-melba-e0e22f.netlify.app/">
+                <img class="imgDesktop" src="Images/imgApi.png" alt="">
+                </a>
+                <p>Oppgavens <a class="a" href="https://github.com/PollyKoder/apiCall" target="_blank">kildekode</a></p>
+            </div>
+        </section>
+    </main>
+    <footer id="contact">
+        <section>
+            <h5>Kontakt info og kilde kode</h5>
+            <p><b>Email</b> riviera.koder@gmail.com</p>
+            <p><b>Kildekode </b>
+                <a href="https://github.com/PollyKoder/P.H.-Riviera-Portfolio/tree/oppdatert" target="_blank"> for denne siden</a>
+            </p>
+            <p><b>Github</b> <a href="https://github.com/PollyKoder" target="_blank">kontoen min</a></p>
+        </section>
+    </footer>
+</body>
+</html>

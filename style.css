@@ -1,0 +1,268 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* ex fra undervisning:
+    /*General
+.lightMode{
+    banckground-color: #fdfdfd;
+    color:#0d0d0d;
+}
+
+/* Dark Mode
+.darkMode {
+   
+}
+*/
+
+
+/*Setup for light mode*/
+.lightMode {
+    /*Theme toggle button*/
+.themeToggle {
+    margin-top: 5px;
+    margin-left: 5px;
+    width: 100px;
+    height: 60px;
+    font-size: larger;
+    background-color: #250e2d;
+    color: #fefe45;
+    padding: 5px;
+    border-radius: 30px;
+}
+    margin:0;
+    background-image: linear-gradient(#eff8e2, #cecfc7, #ada8b6, #573280, #23022e, #573280, #ada8b6, #cecfc7);
+}
+
+
+/*Setup for dark mode*/
+.darkMode {
+    /*Theme toggle button*/
+    .themeToggle {
+        background-color: #fefe45;
+        color: #23022e;
+        padding: 5px;
+        border-radius: 30px;
+    }
+    background-image: linear-gradient(#23022e, #573280, #ada8b6, #cecfc7, #eff8e2, #cecfc7, #ada8b6, #573280, #23022e);
+    .main {
+        background-color: #23022e;
+        color: #cecfc7;
+        width: 800px;
+        margin-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+        border: 3px solid #ada8b6;
+        border-radius: 15px;
+        padding: 20px;
+        padding-bottom: 30px;
+    }
+
+    .a {
+        color: #fefe45;
+    }
+}
+
+/*Theme toggle button
+.themeToggle {
+    background-color: ;
+}
+*/
+
+body {
+    margin: 0;
+    /*
+    background-image: linear-gradient(#eff8e2, #cecfc7, #ada8b6, #573280, #23022e, #573280, #ada8b6, #cecfc7, #eff8e2); */
+}
+
+header {
+    display: block;
+}
+
+.top-banner {
+    text-align: center;
+    font-size: x-large;
+    background-color: #573280;
+    color: #cecfc7;
+    width: auto;
+    height: 40px;
+}
+
+.head-flex {
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navWrapper {
+    text-align: left;
+    font-size: xx-large;
+    background-color: #23022e;
+    color: #cecfc7;
+    width: 240px;
+    height: 270px;
+    margin-top: 30px;
+    margin-left: 10px;
+    border: 0px solid #23022e;
+    border-radius: 10px;
+    padding-top: 3px;
+    padding-bottom: 40px;;
+    padding-left: 30px;
+    padding-right: 5px;
+}
+
+.burgerMenu {
+    display: none;
+    height: 1rem;
+}
+
+.showNav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 100vh;
+    position: fixed;
+    background-color: #23022e;
+}
+
+
+.nav-p {
+    display: block;
+    width: 950px;
+    height: 200px;
+    border: 0 solid none;
+    border-radius: 10px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.home-img {
+    display:block;
+    width: 450px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0px solid none;
+    border-radius: 200px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.main {
+    background-color: #cecfc7;
+    color: #23022e;
+    width: 800px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 3px solid #573280;
+    border-radius: 15px;
+    padding: 20px;
+    padding-bottom: 30px;
+}
+
+h3 {
+    margin-top: 150px;
+    margin-bottom: 60px;
+    text-decoration: underline;
+    text-align: center;
+}
+
+.projects {
+    text-align: center;
+}
+
+.task {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+
+.imgDesktop {
+    width: 600px;
+    margin-top: 30px;
+    border-radius: 10px;  
+}
+
+.imgMobile {
+    width: 450px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+
+.pfp {
+    width: 300px;
+    display: block;
+    margin-top: 30px;
+    margin-left: 210px;
+    border: 2px solid #23022e;
+    border-radius: 100%;
+}
+
+footer {
+    text-align: center;
+    font-size: large;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    background-color: #ada8b6;
+    color: #23022e;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    margin: 15px;
+}
+
+
+
+/* fix responsive design with media query below, adjust to function well on browser, then tablet.*/
+
+@media (max-width: 768px) {
+    /*Adjust to tablet instead!*/
+    /*I tried to adjust the button size, but nothing happens. Will fix it at another time...*/
+    /* .themeToggle {
+        width: 70px;
+        height: 30px;
+    } */ 
+    /* I wanted to postion the button, and then realized that I was trying to fix it here as if this 
+    was related to mobile display. Really should've just made desktop first and then made mobile display*/
+    /* .burgerMenu {
+        display: flex;
+        margin-left: auto;
+    } */
+}
+
+
+@media (max-width: 426px) {
+    .burgerMenu {
+        display: block;
+    }
+
+    .navWrapper {
+        display: none;
+    }
+    /*Fix this to mobile display*/
+}

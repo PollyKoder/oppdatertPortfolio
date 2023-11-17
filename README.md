@@ -1,4 +1,9 @@
-# Oppgaven:
+# Oppgave:
+- Oppdater portfolio, med alle prosjekter fra kurset. Se over om siden kan oppdateres på andre måter, sjek at siden er semantisk korrekt.
+
+- Due Nov 17
+
+<!-- # Oppgaven:
 
     Lag en semantisk korrekt nettside som du kan bruke som en landingsside. Med en (eller flere) tilhørendes CSS filer som dere benytter til å endre dokumentet visuelt.
 
@@ -13,7 +18,7 @@
     - Lenke til GitHub Repo (Dette repositoriet må være Public)
     - Lenke til live nettside (Netlify)
 
-- Due Sep 8
+- Due Sep 8 -->
 
 
 # Egne Notater: 
